@@ -14,7 +14,7 @@ const NavButton: React.FC<Props> = ({ label }) => {
   return (
     <Link href={link}>
       <div
-        className={`hover:text-cyan-300 hover:scale-110 ${
+        className={`hover:text-cyan-300 hover:scale-110 hover:cursor-pointer ${
           path === link || isHome ? "text-rose-400" : "text-white"
         }`}
       >
