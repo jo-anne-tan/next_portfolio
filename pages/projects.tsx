@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
       <p className="italic text-sm text-gray-300 text-center mt-5 md:mt-0">
         Hey there! Thanks for looking through my portfolio. I&apos;m in the
         midst of cleaning up older projects and making new ones. This section
-        will be updated soon. Please check back in a few weeks or{" "}
+        will be updated soon with. Please check back in a few weeks or{" "}
         <Link href="/contact">
           <a className="text-cyan-400 hover:text-rose-400">contact me</a>
         </Link>

@@ -93,7 +93,6 @@ const MyStack: React.FC = () => {
         <ul className="list-disc">
           <li>Progressive Web Apps</li>
           <li>Ionic Capacitor</li>
-          <li>Ionic Capacitor</li>
           <li>Web3.js</li>
           <li>Solidity</li>
           <li>Ruby on Rails</li>

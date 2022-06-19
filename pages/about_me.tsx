@@ -23,21 +23,18 @@ const AboutMe: React.FC = () => {
           was rewarding, it felt like something was missing.
         </p>
         <p>
-          I took part in volunteer activities with NGOs. It was fun, but it
-          didn&apos;t fill the gap in my heart. It wasn&apos;t until I
-          participated in several coding training sessions that I finally
-          realised what that was - the joy and satisfaction from creation.
+          It wasn&apos;t until I participated in programming trainings at work
+          that I finally realised what the missing piece was - the joy of
+          creation.
         </p>
         <p>
-          In pursuit of the feverish passion I once experienced completing
-          coding assignments back in my university days, I did a quick research
-          on the job market for software developers, pondered for a bit, then
-          took a leap of faith and persued a 3-month bootcamp on full-stack web
-          development.
+          In pursuit of the passion I experienced, I took a leap of faith and
+          persued a 3-month bootcamp on full stack web development in November
+          2020 at Next Academy.
         </p>
         <p>
-          Here I am, 3 months later with a belt of shiny new skills alongside
-          newfound confidence, passion and excitement!
+          I&apos;m currently happily working as a software engineer at Sharkbate
+          Sdn. Bhd.
         </p>
       </div>
     </div>

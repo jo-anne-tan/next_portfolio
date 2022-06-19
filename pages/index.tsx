@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 import Image from "next/image";
 
 const Home: NextPage = () => {
@@ -19,11 +18,11 @@ const Home: NextPage = () => {
         </div>
         <div className="max-w-3xl text-[50px]">
           <p className="">Hello world! 👋</p>
-          <h1 className="">I&apos;m Jo-Anne Tan, a Full-Stack Web Developer</h1>
+          <h1 className="">I&apos;m Jo-Anne Tan, a Full Stack Web Developer</h1>
           <hr className="my-5" />
           <p className="text-lg">
-            Previously working as a sales engineer, I decided to pursue my
-            passion in programming and I have never looked back since.
+            I build full stack web applications from scratch to deployment using
+            Next.js, Typescript, and Tailwind.
           </p>
         </div>
       </div>
