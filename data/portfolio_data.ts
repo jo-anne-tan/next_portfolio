@@ -16,8 +16,7 @@ export const portfolio_data: PortfolioData[] = [
   //   description: [""],
   // },
   {
-    image: "/images/test2.png",
-    // image: "/images/coffee-connoisseur.png",
+    image: "/images/coffee-connoisseur.png",
     title: "Coffee Connoisseur",
     subtitle: "Next.js + Typescript + Tailwind CSS + AirTable",
     github_link: "https://github.com/jo-anne-tan/coffee-connoisseur",
