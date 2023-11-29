@@ -1,20 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Contact: React.FC = () => {
   return (
     <div className="h-full flex items-center justify-center text-center ">
       <div className=" max-w-3xl flex flex-col items-center p-2">
-        <div className="text-3xl">
-          Got a cool project to work on together? Just wanna say hi? Let&apos;s
-          chat!
-        </div>
+        <div className="text-3xl">Got a cool project to work on together? Just wanna say hi? Let&apos;s chat!</div>
         <div className="mt-10 w-1/2 flex flex-col items-center text-lg">
           <div>
-            {/* Email */}
-            <a
-              href="mailto:tanjoanne128@gmail.com"
-              className="hover:text-cyan-400 block mb-2"
-            >
+            <a href="mailto:tanjoanne128@gmail.com" className="hover:text-cyan-400 block mb-2">
               <div className="flex items-center gap-x-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -33,11 +27,7 @@ const Contact: React.FC = () => {
                 <p>tanjoanne128@gmail.com</p>
               </div>
             </a>
-            {/* Mobile */}
-            <a
-              href="tel:+60163192090"
-              className="hover:text-cyan-400 block mb-2"
-            >
+            <a href="tel:+60163192090" className="hover:text-cyan-400 block mb-2">
               <div className="flex items-center gap-x-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -60,54 +50,47 @@ const Contact: React.FC = () => {
           <div className="flex gap-x-10 mt-10">
             {/* LinkedIn */}
             <div className="hover:text-cyan-400">
-              <a
+              <Link
                 href="https://www.linkedin.com/in/jo-anne-tan/"
                 target="_blank"
-                className=""
+                className="grid place-items-center gap-y-2"
                 rel="noreferrer"
               >
                 <Image
-                  className="bg-white rounded-md"
+                  className="bg-white rounded-md object-cover"
                   src="/images/logos/linkedin.png"
                   alt="LinkedIn logo"
                   width={50}
                   height={50}
-                  objectFit="cover"
                 />
-                <div className="flex items-center gap-x-10">
-                  <p>LinkedIn</p>
-                </div>
-              </a>
+                <div className="flex items-center gap-x-10 ">LinkedIn</div>
+              </Link>
             </div>
             {/* Github */}
             <div className="hover:text-cyan-400">
-              <a
+              <Link
                 href="https://www.linkedin.com/in/jo-anne-tan/"
                 target="_blank"
-                className="hover:text-cyan-400"
+                className="grid place-items-center gap-y-2"
                 rel="noreferrer"
               >
-                {" "}
                 <Image
-                  className=" rounded-md"
+                  className="rounded-md object-cover"
                   src="/images/logos/github.webp"
                   alt="Github logo"
                   width={50}
                   height={50}
-                  objectFit="cover"
                 />
-                <div className="flex items-center gap-x-10">
-                  <p>Github</p>
-                </div>
-              </a>
+                <div className="flex items-center gap-x-10">Github</div>
+              </Link>
             </div>
             {/* Whatsapp */}
             <div className="hover:text-cyan-400">
-              <a
+              <Link
                 href="https://wa.me/+60163192090"
                 target="_blank"
-                className="hover:text-cyan-400"
                 rel="noreferrer"
+                className="grid place-items-center gap-y-2"
               >
                 <Image
                   className=" rounded-md"
@@ -115,13 +98,9 @@ const Contact: React.FC = () => {
                   alt="Github logo"
                   width={50}
                   height={50}
-                  objectFit="cover"
                 />
-                <div className="">
-                  <p>Whatsapp</p>
-                  <p className="text-sm">(Preferred)</p>
-                </div>
-              </a>
+                <div>Whatsapp</div>
+              </Link>
             </div>
           </div>
         </div>

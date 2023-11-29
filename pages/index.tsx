@@ -8,7 +8,7 @@ const Home: NextPage = () => {
         <div className="w-1/2 md:w-1/5">
           <Image
             className="rounded-full"
-            src="/images/avatar.jpeg"
+            src="/images/avatar.jpg"
             alt="Jo-Anne Tan's portrait"
             width={300}
             height={300}
@@ -21,8 +21,7 @@ const Home: NextPage = () => {
           <h1 className="">I&apos;m Jo-Anne Tan, a Full Stack Web Developer</h1>
           <hr className="my-5" />
           <p className="text-lg">
-            I build full stack web applications from scratch to deployment using
-            Next.js, Typescript, and Tailwind.
+            I build full stack web applications from scratch to deployment using Next.js, Typescript, and Tailwind.
           </p>
         </div>
       </div>

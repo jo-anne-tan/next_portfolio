@@ -9,10 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div className="bg-zinc-800 text-white w-screen h-screen p-5 overflow-x-hidden">
       <Head>
         <title>Jo-Anne Tan | Full Stack Web Developer</title>
-        <meta
-          name="description"
-          content="Jo-Anne Tan's web development portfolio"
-        />
+        <meta name="description" content="Jo-Anne Tan's web development portfolio" />
         <link rel="icon" href="/favicon.png" />
       </Head>
 

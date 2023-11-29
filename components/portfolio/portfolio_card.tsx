@@ -3,14 +3,7 @@ import Link from "next/link";
 import { PortfolioData } from "../../data/portfolio_data";
 
 type Props = PortfolioData;
-const PortfolioCard: React.FC<Props> = ({
-  image,
-  title,
-  subtitle,
-  github_link,
-  website_link,
-  description,
-}) => {
+const PortfolioCard: React.FC<Props> = ({ image, title, subtitle, github_link, website_link, description }) => {
   return (
     <div className="border border-gray-600 p-5 rounded-xl flex flex-col md:flex-row gap-x-10 ">
       <Image
@@ -26,16 +19,12 @@ const PortfolioCard: React.FC<Props> = ({
         <p className="mt-2">{subtitle}</p>
         <div className="flex gap-x-5 mt-2">
           {github_link && (
-            <Link href={github_link} passHref>
-              <a target="_blank" className="text-cyan-400 hover:text-rose-400">
-                View Github Repository
-              </a>
+            <Link href={github_link} target="_blank" className="text-cyan-400 hover:text-rose-400">
+              Github Repository
             </Link>
           )}
-          <Link href={website_link} passHref>
-            <a target="_blank" className="text-cyan-400 hover:text-rose-400">
-              View Live Website
-            </a>
+          <Link href={website_link} target="_blank" className="text-cyan-400 hover:text-rose-400">
+            Live Website
           </Link>
         </div>
         {description.map((des) => (
